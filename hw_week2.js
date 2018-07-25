@@ -12,6 +12,7 @@ app.get('/hihi/:abc?',function(req, res){
 })
 
 app.get('/hihi',function(req, res){
+    // TO-DO: 기능이 동작 하지 않아서 수정 필요.
     res.send('intro');
 })
 

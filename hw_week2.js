@@ -31,6 +31,4 @@ app.get('/hello',function(req, res){
     res.send('Hello World!');
 })
 
-app.listen(8080, function(){
-    console.log('Server is running');
-})
+module.exports = app; //변수 할당
